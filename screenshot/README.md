@@ -4,6 +4,7 @@
 ## Dependencies:
 - gnome-screenshot
 - xclip
+
 You could also rebind the Print key if you want to
 
 ## Support
