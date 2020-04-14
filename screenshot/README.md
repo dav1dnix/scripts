@@ -1,7 +1,7 @@
 # screenshot
 ## Screenshots an area and copies 0x0.st url to clipboard
 
-## Dependencies:
+## Dependencies
 - gnome-screenshot
 - xclip
 
