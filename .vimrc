@@ -14,8 +14,14 @@ Plug 'preservim/nerdtree'
 call plug#end()
 
 " ALE
-let g:ale_fixers = {'go': ["goimports"]}
-let g:ale_linters = {'go': ["gopls"]}
+let g:ale_fixers = {
+			\ 'go': ["goimports"], 
+			\ 'python': ["black"],
+			\ }
+let g:ale_linters = {
+			\ 'go': ["gopls"],
+			\ 'python': ["pylint"]
+			\ }
 let g:gofmt_command = "goimports"
 let g:ale_completion_enabled = 1
 let g:ale_fix_on_save = 1
