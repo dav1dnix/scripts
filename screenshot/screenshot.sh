@@ -12,6 +12,5 @@ areass() {
 	COPY_IMG="xclip -selection c -o | cut -d / -f 4"
 	PNG=$(eval $COPY_IMG)
 	echo "https://0x0.arikawa-hi.me/$PNG" | xclip -selection c
-
 }
 areass
