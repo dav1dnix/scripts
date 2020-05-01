@@ -1,8 +1,8 @@
 # screenshot
-## Screenshots an area and copies 0x0.st url to clipboard
+## Screenshots an area and copies 0x0.arikawa-hi.me url to clipboard
 
 ## Dependencies
-- gnome-screenshot
+- flameshot
 - xclip
 
 You could also rebind the Print key if you want to
