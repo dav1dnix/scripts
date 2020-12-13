@@ -39,7 +39,7 @@ func main() {
 		}
 		fmt.Println("installed goimports.")
 
-		// It would be assumed that /usr/local/bin/go is added (if you can run this file). Now ~/go needs to be added to PATH.
+		// It would be assumed that /usr/local/bin/go is added (if you can run this file). Now ~/go/bin needs to be added to PATH.
 
 		// https://stackoverflow.com/a/26153102
 		c, err := ioutil.ReadFile(profile)
