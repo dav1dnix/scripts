@@ -1,5 +1,5 @@
 # screenshot
-## Screenshots an area and copies 0x0.arikawa-hi.me url to clipboard
+## Screenshots an area and copies your domain url to clipboard
 
 ## Dependencies
 - maim
