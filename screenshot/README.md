@@ -9,5 +9,8 @@
 
 You could also rebind the Print key to this script if you want to, for example on GNOME you can do this: https://askubuntu.com/a/1039949
 
+## If you use ssh key authentication..
+You can probably do this https://serverfault.com/a/241593 and then remove sshpass, that shouldn't be needed.
+
 ## Support
 Doesn't support Windows or ~~macOS~~ (could probably work on macOS as it is UNIX based, but I have no idea)
