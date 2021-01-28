@@ -1,5 +1,5 @@
 # screenshot
-## Screenshots an area and copies your domain url to clipboard
+## Screenshot an area, upload it and copy the domain with the image to clipboard.
 
 ## Dependencies
 - maim
@@ -12,5 +12,8 @@ You could also rebind the Print key to this script if you want to, for example o
 ## If you use ssh key authentication..
 You can probably do this https://serverfault.com/a/241593 and then remove sshpass, that shouldn't be needed.
 
-## Support
-Doesn't support Windows or ~~macOS~~ (could probably work on macOS as it is UNIX based, but I have no idea)
+## Windows
+If you're on Windows, you can't use this script. Follow [this](https://github.com/dps910/nginx-image-server#configuring-sharex-windows).
+
+## macOS
+The script can probably be modified to upload images via FTP, or you can make your own script.
