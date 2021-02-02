@@ -36,9 +36,8 @@ def args():
 
 def queryPdfDocsTable():
     cur.execute("SELECT * FROM pdfdocs")
-    rows = cur.fetchall()
-    for row in rows:
-        print(row)
+    row = cur.fetchone()
+    print(row)
 
 def getPythonDocs(url):
     with urlopen("".join(url)) as resp:
