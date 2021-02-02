@@ -1,0 +1,6 @@
+/*/bin
+/*/lib
+/*/pyvenv.cfg
+/*/.env
+/get_pdf_docs/src/database.db
+/get_pdf_docs/src/docs-pdf
