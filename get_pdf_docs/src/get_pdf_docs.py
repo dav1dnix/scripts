@@ -54,11 +54,11 @@ def getPythonDocs(url):
                     rename(tarbz2, f"{v}/{tarbz2}")
 
                     # After moving bz2, extract it! This function returns a TarFile obj :D)
-                    with taropen(name=tarbz2, mode="r:bz2") as bz2:
+                    with taropen(name=f"{v}/{tarbz2}", mode="r:bz2") as bz2:
                         print("Extracting bz2..")
                         bz2.extractall(path=v)
                         print("Cleaning up..")
-                        remove(tarbz2)
+                        remove(f"{v}/{tarbz2}")
                         print("Done!")
 
                         # Make a log of this in database
